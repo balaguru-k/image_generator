@@ -1,0 +1,12 @@
+{
+  "prompt": "A portrait of a robot in Van Gogh style",
+  "style": "cartoon",
+  "full_prompt": "A portrait of a robot in Van Gogh style, cartoon",
+  "negative_prompt": null,
+  "guidance_scale": 7.5,
+  "num_inference_steps": 30,
+  "model_id": "CompVis/stable-diffusion-v1-4",
+  "device": "cpu",
+  "filename": "outputs/20251127_195731_020739_0.png",
+  "timestamp": "20251127_195731_020739"
+}

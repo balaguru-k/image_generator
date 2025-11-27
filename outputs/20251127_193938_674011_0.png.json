@@ -1,0 +1,12 @@
+{
+  "prompt": "a super hero fires the world",
+  "style": "photorealistic",
+  "full_prompt": "a super hero fires the world, photorealistic, highly detailed, sharp focus, professional photography, 8k ultra realistic, high clarity, cinematic lighting",
+  "negative_prompt": "blur, low quality, low resolution, distorted, bad anatomy, noisy, artifacts",
+  "guidance_scale": 8,
+  "num_inference_steps": 25,
+  "model_id": "CompVis/stable-diffusion-v1-4",
+  "device": "cpu",
+  "filename": "outputs/20251127_193938_674011_0.png",
+  "timestamp": "20251127_193938_674011"
+}

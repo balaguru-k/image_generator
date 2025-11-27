@@ -1,0 +1,12 @@
+{
+  "prompt": "A portrait of a robot in Van Gogh style",
+  "style": "photorealistic",
+  "full_prompt": "A portrait of a robot in Van Gogh style, photorealistic, highly detailed, professional photography, 4k, ultra realistic",
+  "negative_prompt": null,
+  "guidance_scale": 7.5,
+  "num_inference_steps": 30,
+  "model_id": "CompVis/stable-diffusion-v1-4",
+  "device": "cpu",
+  "filename": "outputs/20251127_200737_367326_0.png",
+  "timestamp": "20251127_200737_367326"
+}

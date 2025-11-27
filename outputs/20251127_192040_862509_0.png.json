@@ -1,0 +1,12 @@
+{
+  "prompt": "a cute robot walking in a forest",
+  "style": "photorealistic",
+  "full_prompt": "a cute robot walking in a forest, photorealistic, highly detailed, professional photography, 4k, ultra realistic",
+  "negative_prompt": null,
+  "guidance_scale": 7.5,
+  "num_inference_steps": 15,
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "device": "cpu",
+  "filename": "outputs/20251127_192040_862509_0.png",
+  "timestamp": "20251127_192040_862509"
+}

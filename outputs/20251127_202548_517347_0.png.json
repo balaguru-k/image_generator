@@ -1,0 +1,12 @@
+{
+  "prompt": "earth without water",
+  "style": "photorealistic",
+  "full_prompt": "earth without water, photorealistic, highly detailed, professional photography, 4k, ultra realistic",
+  "negative_prompt": null,
+  "guidance_scale": 7.5,
+  "num_inference_steps": 30,
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "device": "cpu",
+  "filename": "outputs/20251127_202548_517347_0.png",
+  "timestamp": "20251127_202548_517347"
+}
