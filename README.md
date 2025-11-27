@@ -1,11 +1,15 @@
 # image_generator
 
 1)Project Overview :
+
         This project is a simple AI Image Generator built using Streamlit, Diffusers, and Hugging Face models.Users can enter a text prompt, and the app generates an image using a pretrained Stable Diffusion model. The project is beginner-friendly and designed for both CPU and GPU systems.
 
 2)Architecture :
+
         User Prompt → Streamlit UI → Diffusers Pipeline → Model (Stable Diffusion) → Generated Image
+        
 Components:
+
         * Frontend: Streamlit
         * Backend: Python
         * Model: Stable Diffusion (CompVis/stable-diffusion-v1-4)
@@ -13,6 +17,7 @@ Components:
         * Runtime: CPU/GPU
 
 3)Setup & Installation :
+
 * Clone the project:
          git clone https://github.com/your-username/your-repo.git
          cd your-repo
@@ -35,17 +40,21 @@ Components:
              * Place inside models/stable-diffusion-v1-4/
 
 4)Hardware Requirements
+
 * CPU-Only
+  
       * Minimum: 8 GB RAM
       * Recommended: 16 GB RAM
       * Images will take 20–60 seconds each
 
 * GPU (Fast Generation)
+  
       * NVIDIA GPU with 6 GB+ VRAM
       * CUDA installed
       * Generation time: 1–4 seconds
   
 5)Usage Instructions:
+
       * Run the Streamlit app
               streamlit run app.py
       * Example Prompts
@@ -57,6 +66,7 @@ Components:
           Generated images will appear on the screen.
 
 6)Technology Stack:
+
          * Python 3.10+
          * Streamlit
          * Diffusers
@@ -65,6 +75,7 @@ Components:
          * Stable Diffusion v1.4
          
 7)Prompt Engineering Tips:
+
           * Be specific:
                  “A realistic cat wearing sunglasses, 4K, detailed fur”
           * Add style keywords:
@@ -77,6 +88,7 @@ Components:
                    “blurry, low quality, distorted face, extra limbs”
 
 8)Limitations:
+
          * Slow on CPU (20–60 seconds per image)
          * High RAM usage
          * Cannot generate copyrighted character styles
@@ -84,6 +96,7 @@ Components:
          * Limited to Stable Diffusion v1.4 capability
 
 9)Future Improvements:
+
          * Fine-tuning on custom datasets
          * Support for additional models (FLUX, SDXL, DreamShaper)
          * Add image-to-image mode
