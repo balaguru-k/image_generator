@@ -19,6 +19,7 @@ Components:
 3)Setup & Installation :
 
 * Clone the project:
+  
          git clone https://github.com/your-username/your-repo.git
          cd your-repo
 * Create virtual environment:
