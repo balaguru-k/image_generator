@@ -28,12 +28,14 @@ Components:
 * Install dependencies:
             pip install -r requirements.txt
 * Download the Stable Diffusion model:
+  
             from diffusers import StableDiffusionPipeline
             pipe = StableDiffusionPipeline.from_pretrained(
                       "CompVis/stable-diffusion-v1-4",
                         use_safetensors=True
              )
 * Option 2 — Manual download (HuggingFace):
+  
              * Go to https://huggingface.co/CompVis/stable-diffusion-v1-4
              * Accept the license
              * Download model files
